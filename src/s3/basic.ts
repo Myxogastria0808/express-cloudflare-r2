@@ -115,7 +115,6 @@ const getObjectCommandWrapper = async (filename: string): Promise<GetObjectComma
 };
 
 export {
-    s3,
     createBucket,
     deleteBucket,
     deleteObject,
